@@ -4,4 +4,4 @@ Zdrojový kód z predmetu **Tvorba Webstránok** pre školský rok **2023/24** n
 
 Pre špecifické požiadavky / otázky kontaktujte: [kragleh@gmail.com](mailto:kragleh@gmail.com)
 
-Source code for the **Web Design** subject for **2023/24** at [SOŠELH](http://soselh.sk), department **multimedia**.
+EN: Source code for the **Web Design** subject for **2023/24** at [SOŠELH](http://soselh.sk), department **multimedia**. This repository is purely for educational purposes.
