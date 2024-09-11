@@ -1,4 +1,6 @@
-<center><h1>TWS 2023/24</h1></center>
+<div align="center">
+  <h1>TWS 2023/24</h1>
+</div>
 
 Zdrojový kód z predmetu **Tvorba Webstránok** pre školský rok **2023/24** na [SOŠELH](http://soselh.sk), odbor **multimédiá**.
 
