@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .jumbotron {
+      background-color: darkgray;
+      color: orange;
+    }
+
+    .panel-heading {
+      background: #F90 !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Collapse</h1>
+      <p>- rozklikavacie tlacitko</p>
+      <a href="#demo" class="btn btn-info" data-toggle="collapse">Klikni sem </a>
+      <div id="demo" class="collapse">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+      <a href="#a" class="btn btn-info" data-toggle="collapse">Klikni sem 2</a>
+      <div id="a" class="collapse">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+    </div>
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" href="#collapse1">1. Kirhoffov Zakon</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">Kolko prudu mi do uzla vteka, tolko vyteka</div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" href="#collapse2">2. Kirhoffov Zakon</a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">Súčet úbytkov napätia na spotrebičoch sa v uzavretej časti obvodu (slučke) rovná súčtu elektromotorických napätí zdrojov v tejto časti obvodu.</div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" href="#collapse3">3. Kirhoffov Zakon</a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">Ten sa este doucime</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#demo2" data-toggle="collapse">
+      <img src="bandmember.png" class="img-circle person" alt="Random Name">
+    </a>
+    <div id="demo2" class="collapse">
+      <p>Drummer</p>
+      <p>Loves drummin'</p>
+      <p>Member since 1988</p>
+    </div>
+
+  </div>
+</body>
+</html>

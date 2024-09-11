@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pisomka Bootstrap</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .jumbotron {
+      background-color: lightblue;
+    }
+
+    .jumbotron h1 {
+      color: darkblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Jam Botto</h1>
+    </div>
+
+    <div id="here" class="row">
+      <div id="jb" class="col-sm-3" style="text-align: center;">
+        <h2>Jam Botto</h2>
+        <img src="/jan_botto.jpg" alt="JanBotto" class="img-rounded" style="margin-bottom: 1rem; width: 200px;">
+        <p><span class="glyphicon glyphicon-asterisk"></span> 27. januára 1829</p>
+        <p><span class="glyphicon glyphicon-flag"></span> 28. apríla 1881</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    for (let i = 0; i < 20; i++) {
+      const here = document.getElementById('here')
+      const jb = document.getElementById('jb')
+      jb.id = ''
+      here.appendChild(jb);
+    }
+  </script>
+</body>
+</html>
